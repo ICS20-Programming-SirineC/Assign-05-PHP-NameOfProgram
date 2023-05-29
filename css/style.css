@@ -1,0 +1,39 @@
+/* Created by: Sirine Cherkaoui
+   Created on: April 2023
+   This CSS file defines the style for index.html
+   Assign-05-PHP-EvenNumberCalculator
+*/
+
+/* Center the content */
+.mdl-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fbfae9;
+}
+
+/* Change the title color and center it */
+.mdl-layout-title {
+  margin: 0 auto;
+  color: hsl(27, 100%, 100%); 
+  font-weight: 600;
+}
+
+/* Change the text input color to purple */
+.mdl-textfield__input {
+  color: hsl(184, 85%, 56%);
+}
+
+/* Add a double border to the text with the "double" class*/
+h5 {
+  border: 2px double;
+  padding: 10px;
+  color: hsl(35, 100%, 51%);
+}
+
+/* Custom styles for MDL card */
+.my-card .mdl-card__title-text {
+  color: hsl(184, 85%, 56%);
+  font-weight: 600;
+}
